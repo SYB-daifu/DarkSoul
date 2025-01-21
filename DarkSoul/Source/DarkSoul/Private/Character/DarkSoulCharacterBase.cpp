@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "DarkSoulCharacterBase.h"
+#include "Character/DarkSoulCharacterBase.h"
 
 // Sets default values
 ADarkSoulCharacterBase::ADarkSoulCharacterBase()
