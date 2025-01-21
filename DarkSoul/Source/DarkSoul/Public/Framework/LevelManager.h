@@ -4,16 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "PlayerManager.generated.h"
+#include "LevelManager.generated.h"
 
 UCLASS()
-class DARKSOUL_API APlayerManager : public AActor
+class DARKSOUL_API ALevelManager : public AActor
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
-	APlayerManager();
+	ALevelManager();
 
 protected:
 	// Called when the game starts or when spawned

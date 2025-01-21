@@ -1,10 +1,10 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "Framework/ResourceManager.h"
+#include "Framework/LevelManager.h"
 
 // Sets default values
-AResourceManager::AResourceManager()
+ALevelManager::ALevelManager()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -12,14 +12,14 @@ AResourceManager::AResourceManager()
 }
 
 // Called when the game starts or when spawned
-void AResourceManager::BeginPlay()
+void ALevelManager::BeginPlay()
 {
 	Super::BeginPlay();
 	
 }
 
 // Called every frame
-void AResourceManager::Tick(float DeltaTime)
+void ALevelManager::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 

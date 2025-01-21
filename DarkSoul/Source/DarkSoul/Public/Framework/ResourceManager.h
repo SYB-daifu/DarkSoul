@@ -3,13 +3,24 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "GameFramework/Actor.h"
+#include "ResourceManager.generated.h"
 
-/**
- * 
- */
-class DARKSOUL_API ResourceManager
+UCLASS()
+class DARKSOUL_API AResourceManager : public AActor
 {
-public:
-	ResourceManager();
-	~ResourceManager();
+	GENERATED_BODY()
+	
+public:	
+	// Sets default values for this actor's properties
+	AResourceManager();
+
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
+public:	
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
 };

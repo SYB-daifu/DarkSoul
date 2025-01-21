@@ -28,4 +28,6 @@ public:
 	FString AppName;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MyGameInstance")
 	FString AppVersion;
+
+
 };
