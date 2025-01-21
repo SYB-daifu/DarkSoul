@@ -6,8 +6,12 @@
 
 #include "CoreMinimal.h"
 #include "Engine/GameInstance.h"
-#include "MyGameInstance.generated.h"
 
+#include "Framework/LevelManager.h"
+#include "Framework/PlayerManager.h"
+#include "Framework/ResourceManager.h"
+
+#include "MyGameInstance.generated.h"
 /**
  * 
  */
@@ -29,5 +33,10 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MyGameInstance")
 	FString AppVersion;
 
+	ALevelManager *LevelManager = NewObject<ALevelManager>();
+
+	APlayerManager *PlayerManager = NewObject<APlayerManager>();
+
+	AResourceManager *ResourceManager = NewObject<AResourceManager>();
 
 };
