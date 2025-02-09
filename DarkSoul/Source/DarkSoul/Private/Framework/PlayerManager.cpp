@@ -10,7 +10,7 @@ APlayerManager::APlayerManager()
 	PrimaryActorTick.bCanEverTick = true;
 
 
-	PlayerController = GetWorld()->GetFirstPlayerController();
+	//PlayerController = GetWorld()->GetFirstPlayerController();
 }
 
 // Called when the game starts or when spawned

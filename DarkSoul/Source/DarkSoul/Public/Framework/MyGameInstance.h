@@ -33,10 +33,10 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MyGameInstance")
 	FString AppVersion;
 
-	ALevelManager *LevelManager = NewObject<ALevelManager>();
+	/*ALevelManager *LevelManager = NewObject<ALevelManager>();
 
 	APlayerManager *PlayerManager = NewObject<APlayerManager>();
 
-	AResourceManager *ResourceManager = NewObject<AResourceManager>();
+	AResourceManager *ResourceManager = NewObject<AResourceManager>();*/
 
 };
